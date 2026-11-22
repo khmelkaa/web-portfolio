@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bart &amp; Co. Barbershop – Karlín, Praha 8 | Online rezervace</title>
+  <meta name="description" content="Bart & Co. Barbershop na Sokolovské 88 v Karlíně. Precizní pánské střihy, skin fade, úprava vousů a hot towel rituály. Objednejte se online během minuty.">
+  <meta name="theme-color" content="#111214">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bart &amp; Co. Barbershop – Karlín, Praha 8">
+  <meta property="og:description" content="Nově otevřený barbershop v Karlíně. Střih, vousy, hot towel a online rezervace termínu.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111214'/%3E%3Crect x='4' y='4' width='56' height='56' rx='11' fill='none' stroke='%23C9A35B' stroke-width='2.5'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='30' fill='%23C9A35B'%3EB%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarberShop",
+    "name": "Bart & Co. Barbershop",
+    "description": "Moderní pánský barbershop a grooming studio v pražském Karlíně.",
+    "image": "assets/img/og-image.jpg",
+    "telephone": "+420776418220",
+    "email": "rezervace@bartbarbershop.cz",
+    "priceRange": "490–1 590 Kč",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sokolovská 88",
+      "addressLocality": "Praha 8 – Karlín",
+      "postalCode": "186 00",
+      "addressCountry": "CZ"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "20:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "17:00" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Přeskočit na obsah</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Bart & Co. Barbershop">
+        <span class="brand-monogram" aria-hidden="true">B&amp;C</span>
+        <span class="brand-text">
+          <span class="brand-name">BART &amp; CO.</span>
+          <span class="brand-sub">KARLÍN · PRAHA 8</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Hlavní navigace">
+        <ul class="nav-list">
+          <li><a href="#sluzby" data-i18n="nav.services">Služby &amp; Ceník</a></li>
+          <li><a href="#tym" data-i18n="nav.team">Barbeři</a></li>
+          <li><a href="#rezervace" data-i18n="nav.booking">Online rezervace</a></li>
+          <li><a href="#galerie" data-i18n="nav.gallery">Galerie</a></li>
+          <li><a href="#poukazy" data-i18n="nav.vouchers">Poukazy</a></li>
+          <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" data-lang="cs" aria-pressed="true">CZ</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn-gold btn-sm header-cta" href="#rezervace" data-i18n="cta.bookShort">Objednat se</a>
+        <button class="burger" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg">
+        <img src="assets/img/hero.jpg" srcset="assets/img/hero-800.jpg 800w, assets/img/hero.jpg 1376w" sizes="100vw" alt="Interiér Bart & Co. Barbershop v Karlíně" fetchpriority="high">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-badges">
+          <span class="badge-gold" data-i18n="hero.badge">Nově otevřeno · Sokolovská 88, Karlín</span>
+          <span class="status-pill" id="live-status"><span class="status-dot"></span><span id="live-status-text">…</span></span>
+        </div>
+        <h1 class="hero-title" id="hero-title" data-i18n="hero.title">Řemeslný střih.<br>Čisté linie.<br><em>Bez čekání.</em></h1>
+        <p class="hero-lead" data-i18n="hero.lead">Pánský barbershop v srdci Karlína zaměřený na precizní střih nůžkami, ostrý skin fade a klasický hot towel rituál. K tomu dobrá káva nebo sklenka rumu v ceně.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#rezervace" data-i18n="cta.book">Objednat se online</a>
+          <a class="btn btn-outline-light" href="#sluzby" data-i18n="cta.prices">Zobrazit ceník</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt data-i18n="stat.rating">Hodnocení</dt>
+            <dd>4.9 ★ <small>(64)</small></dd>
+          </div>
+          <div>
+            <dt data-i18n="stat.time">Průměrná délka</dt>
+            <dd>45 min</dd>
+          </div>
+          <div>
+            <dt data-i18n="stat.metro">Metro Křižíkova</dt>
+            <dd>2 min</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="sluzby" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="services.eyebrow">01 / Služby &amp; Ceník</p>
+            <h2 class="section-title" id="services-title" data-i18n="services.title">Poctivá práce, férové ceny</h2>
+          </div>
+          <p class="section-intro" data-i18n="services.intro">Každá návštěva zahrnuje konzultaci, mytí hlavy, styling prémiovou kosmetikou a nápoj na účet podniku.</p>
+        </div>
+        <div class="services-grid" id="services-grid"></div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section-alt" id="tym" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="team.eyebrow">02 / Tým</p>
+            <h2 class="section-title" id="team-title" data-i18n="team.title">Kdo vás bude stříhat</h2>
+          </div>
+          <p class="section-intro" data-i18n="team.intro">Tři zkušení barbeři s odlišným rukopisem. Vyberte si svého nebo nechte volbu na nás podle nejbližšího volného termínu.</p>
+        </div>
+        <div class="team-grid" id="team-grid"></div>
+      </div>
+    </section>
+
+    <!-- ONLINE BOOKING WIDGET -->
+    <section class="section booking-section" id="rezervace" aria-labelledby="booking-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="booking.eyebrow">03 / Online rezervace</p>
+            <h2 class="section-title" id="booking-title" data-i18n="booking.title">Rezervujte si křeslo za 60 sekund</h2>
+          </div>
+          <p class="section-intro" data-i18n="booking.intro">Vyberte službu, barbera a volný čas. Rezervaci uložíme a okamžitě potvrdíme.</p>
+        </div>
+
+        <div class="booking-layout">
+          <div class="wizard" id="booking-wizard">
+            <ol class="wizard-steps" aria-label="Kroky rezervace">
+              <li class="w-step is-active" data-step="1"><span>01</span><strong data-i18n="step.1">Služba</strong></li>
+              <li class="w-step" data-step="2"><span>02</span><strong data-i18n="step.2">Barber</strong></li>
+              <li class="w-step" data-step="3"><span>03</span><strong data-i18n="step.3">Datum &amp; čas</strong></li>
+              <li class="w-step" data-step="4"><span>04</span><strong data-i18n="step.4">Údaje</strong></li>
+            </ol>
+
+            <!-- Step 1 -->
+            <div class="wizard-pane" data-pane="1">
+              <h3 class="pane-title" data-i18n="pane.1">1. Vyberte službu</h3>
+              <div class="option-grid" id="w-services"></div>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="wizard-pane" data-pane="2" hidden>
+              <h3 class="pane-title" data-i18n="pane.2">2. Vyberte barbera</h3>
+              <div class="option-grid option-grid-barbers" id="w-barbers"></div>
+              <div class="wizard-nav">
+                <button type="button" class="btn btn-outline-light btn-sm" data-back="1" data-i18n="btn.back">Zpět</button>
+              </div>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="wizard-pane" data-pane="3" hidden>
+              <h3 class="pane-title" data-i18n="pane.3">3. Zvolte den a volný čas</h3>
+              <p class="pane-hint" data-i18n="pane.3hint">Neděle máme zavřeno. Zobrazeny jsou nejbližší 2 týdny.</p>
+              <div class="day-strip" id="w-days" role="listbox" aria-label="Výběr dne"></div>
+              <div class="slot-section">
+                <p class="slot-label" id="w-slot-label"></p>
+                <div class="slot-grid" id="w-slots"></div>
+              </div>
+              <div class="wizard-nav">
+                <button type="button" class="btn btn-outline-light btn-sm" data-back="2" data-i18n="btn.back">Zpět</button>
+                <button type="button" class="btn btn-gold btn-sm" id="w-to-step4" disabled data-i18n="btn.continue">Pokračovat</button>
+              </div>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="wizard-pane" data-pane="4" hidden>
+              <h3 class="pane-title" data-i18n="pane.4">4. Vaše kontaktní údaje</h3>
+              <div class="booking-summary-bar" id="w-summary-bar"></div>
+              <!-- Netlify Forms ready -->
+              <form id="booking-form" name="barbershop-booking" method="POST" data-netlify="true" novalidate>
+                <input type="hidden" name="form-name" value="barbershop-booking">
+                <input type="hidden" name="service" id="hid-service">
+                <input type="hidden" name="barber" id="hid-barber">
+                <input type="hidden" name="datetime" id="hid-datetime">
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="b-name" data-i18n="form.name">Jméno a příjmení *</label>
+                    <input id="b-name" name="name" type="text" required autocomplete="name" placeholder="Petr Svoboda">
+                    <span class="err" id="err-name"></span>
+                  </div>
+                  <div class="field">
+                    <label for="b-phone" data-i18n="form.phone">Telefon *</label>
+                    <input id="b-phone" name="phone" type="tel" required autocomplete="tel" placeholder="+420 777 123 456">
+                    <span class="err" id="err-phone"></span>
+                  </div>
+                  <div class="field field-full">
+                    <label for="b-email" data-i18n="form.email">E-mail (pro potvrzení) *</label>
+                    <input id="b-email" name="email" type="email" required autocomplete="email" placeholder="petr@email.cz">
+                    <span class="err" id="err-email"></span>
+                  </div>
+                  <div class="field field-full">
+                    <label for="b-note" data-i18n="form.note">Poznámka pro barbera (nepovinné)</label>
+                    <textarea id="b-note" name="note" rows="2" placeholder="Např. preferuji delší vršek, nůžky..."></textarea>
+                  </div>
+                </div>
+                <div class="wizard-nav">
+                  <button type="button" class="btn btn-outline-light btn-sm" data-back="3" data-i18n="btn.back">Zpět</button>
+                  <button type="submit" class="btn btn-gold" data-i18n="btn.confirm">Potvrdit rezervaci</button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Confirmation -->
+            <div class="wizard-pane confirm-pane" data-pane="5" hidden>
+              <div class="confirm-icon" aria-hidden="true">✓</div>
+              <h3 data-i18n="confirm.title">Termín je váš!</h3>
+              <p class="confirm-details" id="confirm-details"></p>
+              <p class="confirm-sub" data-i18n="confirm.sub">Rezervaci najdete uloženou v panelu „Vaše rezervace“ vpravo. Můžete ji kdykoli zrušit.</p>
+              <button type="button" class="btn btn-outline-light" id="w-reset" data-i18n="confirm.new">Vytvořit další rezervaci</button>
+            </div>
+          </div>
+
+          <!-- Saved Bookings Panel -->
+          <aside class="my-bookings" aria-labelledby="my-bookings-title">
+            <h3 id="my-bookings-title" data-i18n="saved.title">Vaše rezervace</h3>
+            <p class="my-bookings-sub" data-i18n="saved.sub">Uloženo ve vašem prohlížeči (localStorage).</p>
+            <ul class="saved-list" id="saved-list"></ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section section-alt" id="galerie" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="gallery.eyebrow">04 / Ukázky práce</p>
+            <h2 class="section-title" id="gallery-title" data-i18n="gallery.title">Preciznost v detailu</h2>
+          </div>
+          <p class="section-intro" data-i18n="gallery.intro">Kliknutím na fotografii otevřete detailní náhled.</p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <button type="button" class="gal-card" data-gal="0">
+            <img src="assets/img/skin-fade.jpg" srcset="assets/img/skin-fade-560.jpg 560w, assets/img/skin-fade.jpg 1024w" sizes="(min-width: 768px) 33vw, 100vw" alt="Ostrý skin fade a úprava vousů" loading="lazy">
+            <span class="gal-cap" data-i18n="gal.0">Mid Skin Fade &amp; Kontura vousů</span>
+          </button>
+          <button type="button" class="gal-card" data-gal="1">
+            <img src="assets/img/hero.jpg" srcset="assets/img/hero-800.jpg 800w, assets/img/hero.jpg 1376w" sizes="(min-width: 768px) 33vw, 100vw" alt="Prostor barbershopu Bart & Co." loading="lazy">
+            <span class="gal-cap" data-i18n="gal.1">Interiér studia v Karlíně</span>
+          </button>
+          <button type="button" class="gal-card" data-gal="2">
+            <img src="assets/img/og-image.jpg" alt="Klasický pánský střih a grooming rituál" loading="lazy">
+            <span class="gal-cap" data-i18n="gal.2">Classic Scissor Cut &amp; Hot Towel</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GIFT VOUCHERS -->
+    <section class="section" id="poukazy" aria-labelledby="vouchers-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="vouchers.eyebrow">05 / Dárkové poukazy</p>
+            <h2 class="section-title" id="vouchers-title" data-i18n="vouchers.title">Darujte hodinu klidu a perfektní střih</h2>
+          </div>
+          <p class="section-intro" data-i18n="vouchers.intro">Tištěný poukaz v černé obálce s pečetí k vyzvednutí na recepci, nebo okamžitě v PDF na e-mail. Platnost 6 měsíců.</p>
+        </div>
+        <div class="vouchers-grid">
+          <article class="voucher-card">
+            <span class="voucher-tier">CLASSIC</span>
+            <p class="voucher-price">1 000 Kč</p>
+            <p class="voucher-desc" data-i18n="voucher.1">Pokryje kompletní střih včetně mytí, stylingu a drinku, nebo úpravu vousů s kosmetikou.</p>
+            <a href="#rezervace" class="btn btn-outline-light btn-sm voucher-btn" data-voucher="1 000 Kč" data-i18n="voucher.cta">Poptat poukaz</a>
+          </article>
+          <article class="voucher-card voucher-featured">
+            <span class="voucher-tier">SIGNATURE</span>
+            <p class="voucher-price">1 800 Kč</p>
+            <p class="voucher-desc" data-i18n="voucher.2">Nejoblíbenější volba: kompletní balíček Bart &amp; Co. (střih + hot towel vousy + prémiový olej).</p>
+            <a href="#rezervace" class="btn btn-gold btn-sm voucher-btn" data-voucher="1 800 Kč" data-i18n="voucher.cta">Poptat poukaz</a>
+          </article>
+          <article class="voucher-card">
+            <span class="voucher-tier">GENTLEMAN PACK</span>
+            <p class="voucher-price">3 200 Kč</p>
+            <p class="voucher-desc" data-i18n="voucher.3">Dvě kompletní návštěvy nebo kombinace střihu a setu kvalitní stylingové kosmetiky.</p>
+            <a href="#rezervace" class="btn btn-outline-light btn-sm voucher-btn" data-voucher="3 200 Kč" data-i18n="voucher.cta">Poptat poukaz</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS & FAQ -->
+    <section class="section section-alt" id="recenze" aria-labelledby="reviews-title">
+      <div class="container reviews-faq-grid">
+        <div>
+          <p class="eyebrow" data-i18n="reviews.eyebrow">06 / Recenze</p>
+          <h2 class="section-title" id="reviews-title" data-i18n="reviews.title">Klienti se vrací</h2>
+          <div class="reviews-stack">
+            <blockquote class="rev-card">
+              <div class="rev-stars" aria-label="5 z 5">★★★★★</div>
+              <p data-i18n="rev.1">„Matěj mi udělal nejlepší skin fade, co jsem kdy v Praze měl. Skvělá atmosféra bez zbytečného hluku, online rezervace funguje bezchybně.“</p>
+              <footer><strong>Lukáš M.</strong> · Google</footer>
+            </blockquote>
+            <blockquote class="rev-card">
+              <div class="rev-stars" aria-label="5 z 5">★★★★★</div>
+              <p data-i18n="rev.2">„Konečně barbershop v Karlíně, kde umí pracovat i s delšími vlasy nůžkami a neshodí všechno strojkem. Hot towel na závěr je top.“</p>
+              <footer><strong>Ondřej K.</strong> · Google</footer>
+            </blockquote>
+            <blockquote class="rev-card">
+              <div class="rev-stars" aria-label="5 z 5">★★★★★</div>
+              <p data-i18n="rev.3">„Super čisté studio, přesně na čas a dobrá káva. Chodím sem pravidelně před důležitými schůzkami.“</p>
+              <footer><strong>David R.</strong> · Google</footer>
+            </blockquote>
+          </div>
+        </div>
+
+        <div>
+          <p class="eyebrow" data-i18n="faq.eyebrow">07 / Časté dotazy</p>
+          <h2 class="section-title" data-i18n="faq.title">Dobré vědět</h2>
+          <div class="faq-list">
+            <details class="faq-item" open>
+              <summary data-i18n="faq.q1">Můžu přijít i bez objednání?</summary>
+              <p data-i18n="faq.a1">Doporučujeme online rezervaci, abyste nečekali. Pokud máme zrovna volné křeslo, rádi vás vezmeme i z ulice.</p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q2">Berete platební karty a Apple Pay?</summary>
+              <p data-i18n="faq.a2">Ano, přijímáme všechny karty, Apple Pay, Google Pay i hotovost.</p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q3">Co když potřebuji termín zrušit?</summary>
+              <p data-i18n="faq.a3">Stačí zrušit rezervaci alespoň 4 hodiny předem zde na webu nebo krátkou SMS na naše číslo.</p>
+            </details>
+            <details class="faq-item">
+              <summary data-i18n="faq.q4">Jak se k vám dostanu MHD a kde zaparkuji?</summary>
+              <p data-i18n="faq.a4">Jsme 2 minuty pěšky od metra B Křižíkova (i tramvají 3 a 8). V přilehlých ulicích jsou fialové parkovací zóny.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT & HOURS -->
+    <section class="section" id="kontakt" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <p class="eyebrow" data-i18n="contact.eyebrow">08 / Kontakt &amp; Otevírací doba</p>
+          <h2 class="section-title" id="contact-title">Sokolovská 88, Karlín</h2>
+          <ul class="contact-list">
+            <li><strong data-i18n="contact.addr">Adresa:</strong> Sokolovská 88, 186 00 Praha 8 – Karlín</li>
+            <li><strong data-i18n="contact.phone">Telefon:</strong> <a href="tel:+420776418220">+420 776 418 220</a></li>
+            <li><strong>E-mail:</strong> <a href="mailto:rezervace@bartbarbershop.cz">rezervace@bartbarbershop.cz</a></li>
+          </ul>
+          <table class="hours-table">
+            <tbody>
+              <tr><th data-i18n="hours.monfri">Pondělí – Pátek</th><td>9:00 – 20:00</td></tr>
+              <tr><th data-i18n="hours.sat">Sobota</th><td>9:00 – 17:00</td></tr>
+              <tr><th data-i18n="hours.sun">Neděle</th><td data-i18n="hours.closed">Zavřeno</td></tr>
+            </tbody>
+          </table>
+          <a class="btn btn-outline-light" href="https://www.google.com/maps/dir/?api=1&amp;destination=Sokolovsk%C3%A1+88%2C+Praha+8" target="_blank" rel="noopener" data-i18n="contact.dir">Otevřít trasu v Google Maps</a>
+        </div>
+        <div class="map-wrap">
+          <iframe title="Mapa Bart & Co. Barbershop, Sokolovská 88, Praha 8" src="https://maps.google.com/maps?q=Sokolovsk%C3%A1%2088%2C%20186%2000%20Praha%208&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Bart &amp; Co. Barbershop · Karlín, Praha 8</p>
+      <p class="demo-note" data-i18n="footer.demo">Demo projekt – koncept webu vytvořil Khmelevoi Oleksii</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Detail fotografie">
+    <button type="button" class="lb-close" id="lb-close" aria-label="Zavřít">✕</button>
+    <figure>
+      <img id="lb-img" src="assets/img/skin-fade.jpg" alt="">
+      <figcaption id="lb-cap"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
