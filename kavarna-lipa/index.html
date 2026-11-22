@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kavárna Lípa – výběrová káva a pekárna na Vinohradech | Korunní 42, Praha 2</title>
+  <meta name="description" content="Kavárna Lípa na pražských Vinohradech: výběrová káva z malých pražíren, kváskové pečivo z vlastní pece a snídaně po celý den. Korunní 42, Praha 2. Rezervujte si stůl online.">
+  <meta name="theme-color" content="#F7F3EC">
+  <link rel="canonical" href="https://kavarna-lipa.netlify.app/">
+
+  <!-- Open Graph / social. For production replace og:image with an absolute URL. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kavárna Lípa">
+  <meta property="og:title" content="Kavárna Lípa – výběrová káva a pekárna na Vinohradech">
+  <meta property="og:description" content="Výběrová káva, kváskové pečivo z vlastní pece a snídaně celý den. Nově otevřeno na Korunní 42, Praha 2.">
+  <meta property="og:image" content="assets/img/hero.jpg">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%234B5B34'/%3E%3Cpath d='M32 45c-7 5-19 2-20-9-1-10 8-19 22-24 3 9 18 14 17 24-1 11-12 14-19 9z' fill='%23F7F3EC'/%3E%3Cpath d='M32 45l-2 9M32 45c1-11 1-22 2-33' stroke='%234B5B34' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero.jpg" imagesrcset="assets/img/hero-sm.jpg 600w, assets/img/hero.jpg 1376w" imagesizes="(min-width: 900px) 46vw, 100vw">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "Kavárna Lípa",
+    "description": "Výběrová káva, kváskové pečivo z vlastní pece a snídaně po celý den na pražských Vinohradech.",
+    "image": "assets/img/hero.jpg",
+    "url": "https://kavarna-lipa.netlify.app/",
+    "telephone": "+420734512908",
+    "email": "ahoj@kavarnalipa.cz",
+    "priceRange": "60–265 Kč",
+    "servesCuisine": ["Coffee", "Bakery", "Breakfast", "Brunch"],
+    "acceptsReservations": "True",
+    "menu": "https://kavarna-lipa.netlify.app/#menu",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Korunní 42",
+      "addressLocality": "Praha 2 – Vinohrady",
+      "postalCode": "120 00",
+      "addressCountry": "CZ"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 50.0753, "longitude": 14.4436 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:30", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "09:00", "closes": "17:00" }
+    ],
+    "sameAs": ["https://www.instagram.com/", "https://www.facebook.com/"]
+  }
+  </script>
+</head>
+<body>
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M12 17c-3 2.5-8 1-8.5-3.5C3 9 7 5 13 3c1.5 4 8 6 7.5 10.5-.5 4.5-5.5 6-8.5 3.5z"/><path d="M12 17l-1 4.5M12 17c.3-4.5.6-9 1-13.5M12.2 13l-3.5-2M12.5 9.5l3-2M12.3 12.5l4 -1"/></symbol>
+    <symbol id="i-leaf-solid" viewBox="0 0 24 24"><path d="M12 17c-3 2.5-8 1-8.5-3.5C3 9 7 5 13 3c1.5 4 8 6 7.5 10.5-.5 4.5-5.5 6-8.5 3.5z" fill="currentColor" stroke="none"/><path d="M12 17l-1 4.5" /></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.1-2 1.4a11 11 0 0 0 6.4 6.4l1.4-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="M4 7l8 6 8-6"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24"><path d="M14.5 8.5H16V5.2c-.3 0-1.3-.2-2.4-.2-2.4 0-4 1.5-4 4.2v2.3H7v3.6h2.6V21h3.2v-5.9h2.7l.4-3.6h-3.1V9.5c0-.6.3-1 1.7-1z"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.8l2.5 5.2 5.7.8-4.1 4 1 5.6L12 16.7l-5.1 2.7 1-5.6-4.1-4 5.7-.8z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 20v-8M12 12c0-4 3-6.5 7.5-6.5 0 4.5-3 6.5-7.5 6.5zM12 14c0-3-2.3-5-6-5 0 3.6 2.4 5 6 5z"/></symbol>
+    <symbol id="i-wheat-off" viewBox="0 0 24 24"><path d="M12 21V9M12 9c-1.6-1-2-3-1.2-5 1.6 1 2 3 1.2 5zM12 13c-1.8-.2-3.3-1.6-3.6-3.6 1.8.2 3.3 1.6 3.6 3.6zM12 13c1.8-.2 3.3-1.6 3.6-3.6-1.8.2-3.3 1.6-3.6 3.6zM12 17c-1.8-.2-3.3-1.6-3.6-3.6 1.8.2 3.3 1.6 3.6 3.6zM12 17c1.8-.2 3.3-1.6 3.6-3.6-1.8.2-3.3 1.6-3.6 3.6z"/><path d="M4 4l16 16"/></symbol>
+    <symbol id="i-oven" viewBox="0 0 24 24"><path d="M4 19V11a8 8 0 0 1 16 0v8z"/><path d="M8 19v-5a4 4 0 0 1 8 0v5M3 19h18"/></symbol>
+    <symbol id="i-bean" viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="6" ry="8.5" transform="rotate(35 12 12)"/><path d="M8.5 17.5c2-2 1-4.5 3-6.5s4.5-1 6-3.5"/></symbol>
+    <symbol id="i-cup" viewBox="0 0 24 24"><path d="M4.5 9h12v5a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5z"/><path d="M16.5 10.5h1.2a2.3 2.3 0 0 1 0 4.6h-1.6M8.5 3.5c-.8 1 .8 2-.1 3M12 3.5c-.8 1 .8 2-.1 3"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7.5-4.6-7.5-10A4.2 4.2 0 0 1 12 7.6 4.2 4.2 0 0 1 19.5 10c0 5.4-7.5 10-7.5 10z"/></symbol>
+    <symbol id="i-tram" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="3"/><path d="M9 3.5h6M12 3.5V6M6 13h12M8.5 18l-1.5 2.5M15.5 18l1.5 2.5"/><circle cx="9.3" cy="15.5" r=".4" fill="currentColor"/><circle cx="14.7" cy="15.5" r=".4" fill="currentColor"/></symbol>
+    <symbol id="i-metro" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M8 16V8.5l4 5 4-5V16"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="12" cy="16" rx="4" ry="3.2"/><circle cx="6.8" cy="11" r="1.6"/><circle cx="9.8" cy="7.6" r="1.6"/><circle cx="14.2" cy="7.6" r="1.6"/><circle cx="17.2" cy="11" r="1.6"/></symbol>
+    <symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="11" cy="4.8" r="1.4"/><path d="M11 7.5v6h5l2 5M11 10.5h4"/><path d="M8.5 11.2a5 5 0 1 0 6.3 6.6"/></symbol>
+    <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M3.5 9.5a12 12 0 0 1 17 0M6.5 12.8a7.5 7.5 0 0 1 11 0M9.5 16a3 3 0 0 1 5 0"/><circle cx="12" cy="19" r=".6" fill="currentColor"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 6v12M6 12h12"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Přeskočit na obsah</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Kavárna Lípa">
+        <svg class="brand-mark" aria-hidden="true"><use href="#i-leaf-solid"/></svg>
+        <span class="brand-text">
+          <span class="brand-kicker">Kavárna</span>
+          <span class="brand-name">Lípa</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Hlavní navigace" data-i18n-attr="aria-label:a11y.nav">
+        <ul class="nav-list">
+          <li><a href="#pribeh" data-i18n="nav.story">Příběh</a></li>
+          <li><a href="#menu" data-i18n="nav.menu">Menu</a></li>
+          <li><a href="#galerie" data-i18n="nav.gallery">Galerie</a></li>
+          <li><a href="#navsteva" data-i18n="nav.visit">Návštěva</a></li>
+          <li><a href="#recenze" data-i18n="nav.reviews">Recenze</a></li>
+        </ul>
+        <div class="nav-mobile-extra">
+          <a class="btn btn-primary" href="#rezervace" data-i18n="cta.book">Rezervovat stůl</a>
+          <p class="nav-mobile-meta">Korunní 42, Praha 2 · <a href="tel:+420734512908">+420 734 512 908</a></p>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Jazyk / Language">
+          <button type="button" data-lang="cs" aria-pressed="true" lang="cs" title="Čeština">CZ</button>
+          <button type="button" data-lang="en" aria-pressed="false" lang="en" title="English">EN</button>
+        </div>
+        <a class="btn btn-primary btn-sm header-cta" href="#rezervace" data-i18n="header.cta">Rezervovat</a>
+        <button class="burger" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Otevřít menu" data-i18n-attr="aria-label:a11y.menuOpen">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge reveal">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.badge">Nově otevřeno na Vinohradech</span>
+          </p>
+          <h1 class="hero-title reveal" id="hero-title" data-i18n="hero.title">Káva, chléb<br> a&nbsp;chvíle <em>pod lípou</em></h1>
+          <p class="hero-lead reveal" data-i18n="hero.lead">Výběrová káva z&nbsp;malých pražíren, kváskové pečivo z&nbsp;vlastní pece a&nbsp;snídaně po celý den. Na rohu Korunní, pět minut od náměstí Míru.</p>
+          <div class="hero-ctas reveal">
+            <a class="btn btn-primary" href="#rezervace"><span data-i18n="cta.book">Rezervovat stůl</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-ghost" href="#menu" data-i18n="cta.menu">Prohlédnout menu</a>
+          </div>
+          <ul class="hero-meta reveal">
+            <li><span class="status" data-status><span class="status-dot" aria-hidden="true"></span><span class="status-text">Otevírací doba</span></span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Korunní 42, Praha 2</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-media reveal">
+          <div class="arch hero-arch">
+            <img src="assets/img/hero.jpg" srcset="assets/img/hero-sm.jpg 600w, assets/img/hero.jpg 1376w" sizes="(min-width: 900px) 46vw, 100vw" width="1376" height="768" alt="Světlý interiér Kavárny Lípa s dubovým barem, zelenými kachlíky a vitrínou plnou croissantů" data-i18n-attr="alt:alt.hero" fetchpriority="high">
+          </div>
+          <div class="stamp" aria-hidden="true">
+            <svg viewBox="0 0 200 200" class="stamp-ring">
+              <defs><path id="stamp-circle" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0"/></defs>
+              <text><textPath href="#stamp-circle" textLength="448" lengthAdjust="spacing" data-i18n="hero.stamp">PEČENO KAŽDÉ RÁNO · KORUNNÍ 42 · PRAHA ·</textPath></text>
+            </svg>
+            <svg class="stamp-leaf"><use href="#i-leaf-solid"/></svg>
+          </div>
+          <figure class="hero-card">
+            <img src="assets/img/latte-sm.jpg" width="600" height="448" alt="" loading="lazy">
+            <figcaption>
+              <span class="hero-card-label" data-i18n="hero.cardLabel">Nejoblíbenější</span>
+              <span class="hero-card-title">Flat white</span>
+              <span class="hero-card-price">85 Kč</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STORY ============ -->
+    <section class="section story" id="pribeh" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-media reveal">
+          <div class="arch story-arch">
+            <img src="assets/img/barista.jpg" srcset="assets/img/barista-sm.jpg 600w, assets/img/barista.jpg 896w" sizes="(min-width: 900px) 30vw, 70vw" width="896" height="1200" loading="lazy" alt="Ruce baristy nalévají vodu z konvice do dripperu V60" data-i18n-attr="alt:alt.barista">
+          </div>
+          <div class="story-inset">
+            <img src="assets/img/pastry-sm.jpg" width="600" height="600" loading="lazy" alt="Kardamomoví šneci a kváskové croissanty na dřevěném prkénku" data-i18n-attr="alt:alt.pastry">
+          </div>
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-num">01</span><span data-i18n="story.eyebrow">Náš příběh</span></p>
+          <h2 class="section-title reveal" id="story-title" data-i18n="story.title">Švédská skořice, český kvásek a&nbsp;lípa za oknem</h2>
+          <div class="story-text reveal">
+            <p data-i18n="story.p1">Lípu jsme otevřeli v&nbsp;listopadu 2026 v&nbsp;přízemí secesního domu na Korunní. Tereza léta pekla v&nbsp;pražských pekárnách, Jonas se naučil připravovat kávu v&nbsp;rodném Göteborgu. Spojili jsme to, co máme rádi z&nbsp;obou světů: severskou jednoduchost, poctivý kváskový chléb a&nbsp;pohostinnost, při které se člověk cítí jako doma.</p>
+            <p data-i18n="story.p2">Pečeme každé ráno přímo za barem, kávu střídáme podle sezóny a&nbsp;na nic nespěcháme. Švédové tomu říkají <em>fika</em>&nbsp;– zastavit se, dát si kávu, něco sladkého a&nbsp;chvíli jen být.</p>
+          </div>
+          <ul class="values">
+            <li class="value reveal">
+              <span class="value-icon"><svg class="icon" aria-hidden="true"><use href="#i-oven"/></svg></span>
+              <div>
+                <h3 data-i18n="story.v1t">Pečeme od pěti ráno</h3>
+                <p data-i18n="story.v1">Croissanty, šneci i&nbsp;chléb vznikají každý den v&nbsp;naší malé pekárně. Náš kvásek se jmenuje Bohouš.</p>
+              </div>
+            </li>
+            <li class="value reveal">
+              <span class="value-icon"><svg class="icon" aria-hidden="true"><use href="#i-bean"/></svg></span>
+              <div>
+                <h3 data-i18n="story.v2t">Káva s&nbsp;jasným původem</h3>
+                <p data-i18n="story.v2">Výběrové kávy z&nbsp;malých českých a&nbsp;severských pražíren. Ke každé víme, z&nbsp;jaké farmy pochází.</p>
+              </div>
+            </li>
+            <li class="value reveal">
+              <span class="value-icon"><svg class="icon" aria-hidden="true"><use href="#i-cup"/></svg></span>
+              <div>
+                <h3 data-i18n="story.v3t">Fika bez spěchu</h3>
+                <p data-i18n="story.v3">Žádné časové limity u&nbsp;stolu. Přineste si knížku, sedněte si k&nbsp;oknu a&nbsp;zpomalte.</p>
+              </div>
+            </li>
+          </ul>
+          <p class="signature reveal"><span class="signature-name">Tereza &amp; Jonas</span><span class="signature-role" data-i18n="story.sign">zakladatelé Kavárny Lípa</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow-num">02</span><span data-i18n="menu.eyebrow">Menu</span></p>
+            <h2 class="section-title reveal" id="menu-title" data-i18n="menu.title">Co u&nbsp;nás ochutnáte</h2>
+          </div>
+          <p class="section-intro reveal" data-i18n="menu.intro">Krátké menu, které se mění se sezónou. Rostlinné mléko (ovesné, mandlové) nabízíme ke každému nápoji za 15&nbsp;Kč navíc.</p>
+        </div>
+
+        <div class="menu-toolbar reveal">
+          <div class="tabs" role="tablist" aria-label="Kategorie menu" data-i18n-attr="aria-label:menu.tabsLabel">
+            <button class="tab" role="tab" id="tab-coffee" aria-selected="true" aria-controls="menu-panel" data-cat="coffee"><svg class="icon" aria-hidden="true"><use href="#i-cup"/></svg><span data-i18n="menu.cat.coffee">Káva</span></button>
+            <button class="tab" role="tab" id="tab-tea" aria-selected="false" aria-controls="menu-panel" data-cat="tea" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg><span data-i18n="menu.cat.tea">Čaj &amp; další</span></button>
+            <button class="tab" role="tab" id="tab-bakery" aria-selected="false" aria-controls="menu-panel" data-cat="bakery" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-oven"/></svg><span data-i18n="menu.cat.bakery">Pečivo</span></button>
+            <button class="tab" role="tab" id="tab-breakfast" aria-selected="false" aria-controls="menu-panel" data-cat="breakfast" tabindex="-1"><svg class="icon" aria-hidden="true"><use href="#i-sprout"/></svg><span data-i18n="menu.cat.breakfast">Snídaně</span></button>
+          </div>
+          <div class="filters" role="group" aria-label="Filtrovat podle stravování" data-i18n-attr="aria-label:menu.filterLabel">
+            <span class="filters-label" data-i18n="menu.filter">Filtr:</span>
+            <button class="chip" type="button" data-filter="all" aria-pressed="true" data-i18n="menu.f.all">Vše</button>
+            <button class="chip chip-vegan" type="button" data-filter="vegan" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-sprout"/></svg><span data-i18n="menu.f.vegan">Veganské</span></button>
+            <button class="chip chip-gf" type="button" data-filter="gf" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-wheat-off"/></svg><span data-i18n="menu.f.gf">Bez lepku</span></button>
+          </div>
+        </div>
+
+        <div class="menu-panel" id="menu-panel" role="tabpanel" aria-labelledby="tab-coffee" tabindex="0">
+          <ul class="menu-list" id="menu-list" aria-live="polite"></ul>
+          <noscript><p class="menu-empty">Menu zobrazíte po zapnutí JavaScriptu, případně se nás zeptejte u baru. / Please enable JavaScript to view the menu.</p></noscript>
+        </div>
+        <p class="menu-note" data-i18n="menu.note">Informace o&nbsp;alergenech vám rádi sdělíme u&nbsp;baru. Ceny jsou uvedeny včetně DPH.</p>
+      </div>
+    </section>
+
+    <!-- ============ TODAY'S SPECIALS ============ -->
+    <section class="section specials" id="dnes" aria-labelledby="specials-title">
+      <div class="container specials-grid">
+        <div class="specials-media reveal">
+          <div class="arch specials-arch">
+            <img src="assets/img/breakfast.jpg" srcset="assets/img/breakfast-sm.jpg 600w, assets/img/breakfast.jpg 1000w" sizes="(min-width: 900px) 38vw, 90vw" width="1000" height="747" loading="lazy" alt="Kváskový toast s avokádem a pošírovaným vejcem, vedle filtrovaná káva" data-i18n-attr="alt:alt.breakfast">
+          </div>
+        </div>
+        <div class="specials-copy">
+          <p class="eyebrow eyebrow-light reveal"><span class="eyebrow-num" aria-hidden="true">
+            <svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></span><span data-i18n="specials.eyebrow">Dnes u nás</span>&nbsp;·&nbsp;<span id="specials-date"></span></p>
+          <h2 class="section-title reveal" id="specials-title" data-i18n="specials.title">Speciality dne</h2>
+          <p class="specials-intro reveal" data-i18n="specials.intro">Každý den připravujeme něco navíc&nbsp;– podle toho, co přivezli farmáři a&nbsp;jakou kávu jsme zrovna upražili. Dokud zásoby stačí.</p>
+          <ol class="specials-list" id="specials-list"></ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section gallery-section" id="galerie" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow-num">03</span><span data-i18n="gallery.eyebrow">Galerie</span></p>
+            <h2 class="section-title reveal" id="gallery-title" data-i18n="gallery.title">Světlo, dřevo a&nbsp;vůně pečiva</h2>
+          </div>
+          <p class="section-intro reveal" data-i18n="gallery.intro">Velká okna do ulice, dubové stoly a&nbsp;bar obložený kachlíky v&nbsp;barvě lipového listu. Přijďte se podívat osobně.</p>
+        </div>
+        <ul class="gallery">
+          <li class="g-item g-a reveal"><button type="button" class="g-btn" data-index="0"><img src="assets/img/hero.jpg" srcset="assets/img/hero-sm.jpg 600w, assets/img/hero.jpg 1376w" sizes="(min-width: 900px) 50vw, 100vw" width="1376" height="768" loading="lazy" alt="Interiér kavárny s barem a velkým oknem do ulice" data-i18n-attr="alt:gallery.a0"></button></li>
+          <li class="g-item g-b reveal"><button type="button" class="g-btn" data-index="1"><img src="assets/img/latte-sm.jpg" width="600" height="448" loading="lazy" alt="Flat white s latte art v zeleném keramickém šálku" data-i18n-attr="alt:gallery.a1"></button></li>
+          <li class="g-item g-c reveal"><button type="button" class="g-btn" data-index="2"><img src="assets/img/pastry-sm.jpg" width="600" height="600" loading="lazy" alt="Čerstvě upečení kardamomoví šneci a croissanty" data-i18n-attr="alt:gallery.a2"></button></li>
+          <li class="g-item g-d reveal"><button type="button" class="g-btn" data-index="3"><img src="assets/img/breakfast-sm.jpg" width="600" height="448" loading="lazy" alt="Snídaně s avokádovým toastem a filtrovanou kávou" data-i18n-attr="alt:gallery.a3"></button></li>
+          <li class="g-item g-e reveal"><button type="button" class="g-btn" data-index="4"><img src="assets/img/barista-sm.jpg" width="600" height="804" loading="lazy" alt="Příprava filtrované kávy metodou V60" data-i18n-attr="alt:gallery.a4"></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ HOURS + LOCATION ============ -->
+    <section class="section visit" id="navsteva" aria-labelledby="visit-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow-num">04</span><span data-i18n="visit.eyebrow">Návštěva</span></p>
+            <h2 class="section-title reveal" id="visit-title" data-i18n="visit.title">Kdy a&nbsp;kde nás najdete</h2>
+          </div>
+        </div>
+
+        <div class="visit-grid">
+          <div class="hours-card reveal" id="oteviraci-doba">
+            <div class="hours-head">
+              <h3 data-i18n="hours.title">Otevírací doba</h3>
+              <span class="status status-lg" data-status><span class="status-dot" aria-hidden="true"></span><span class="status-text">…</span></span>
+            </div>
+            <table class="hours-table">
+              <caption class="visually-hidden" data-i18n="hours.caption">Otevírací doba podle dnů v týdnu</caption>
+              <tbody>
+                <tr data-day="0"><th scope="row" data-i18n="day.0">Pondělí</th><td>7:30 – 19:00</td></tr>
+                <tr data-day="1"><th scope="row" data-i18n="day.1">Úterý</th><td>7:30 – 19:00</td></tr>
+                <tr data-day="2"><th scope="row" data-i18n="day.2">Středa</th><td>7:30 – 19:00</td></tr>
+                <tr data-day="3"><th scope="row" data-i18n="day.3">Čtvrtek</th><td>7:30 – 19:00</td></tr>
+                <tr data-day="4"><th scope="row" data-i18n="day.4">Pátek</th><td>7:30 – 19:00</td></tr>
+                <tr data-day="5"><th scope="row" data-i18n="day.5">Sobota</th><td>8:30 – 18:00</td></tr>
+                <tr data-day="6"><th scope="row" data-i18n="day.6">Neděle</th><td>9:00 – 17:00</td></tr>
+              </tbody>
+            </table>
+            <p class="hours-note" data-i18n="hours.note">Snídaně podáváme po celý den. Kuchyně končí hodinu před zavírací dobou.</p>
+            <ul class="amenities">
+              <li><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg><span data-i18n="amen.access">Bezbariérový vstup</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-paw"/></svg><span data-i18n="amen.dogs">Pejsci vítáni</span></li>
+              <li><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg><span data-i18n="amen.wifi">Wi-Fi zdarma</span></li>
+            </ul>
+          </div>
+
+          <div class="location reveal">
+            <div class="map-frame">
+              <iframe title="Mapa – Kavárna Lípa, Korunní 42, Praha 2" data-i18n-attr="title:visit.mapTitle" src="https://maps.google.com/maps?q=Korunn%C3%AD%2042%2C%20120%2000%20Praha%202&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <div class="location-info">
+              <address>
+                <strong>Kavárna Lípa</strong><br>
+                Korunní 42<br>
+                120 00 Praha 2 – Vinohrady
+              </address>
+              <ul class="transit">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-tram"/></svg><span data-i18n="visit.tram">Tram 10, 16 – zastávka Jana Masaryka (2&nbsp;min pěšky)</span></li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-metro"/></svg><span data-i18n="visit.metro">Metro A – Náměstí Míru (6&nbsp;min pěšky)</span></li>
+              </ul>
+              <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=Korunn%C3%AD+42%2C+120+00+Praha+2" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="visit.directions">Naplánovat cestu</span><span class="visually-hidden" data-i18n="a11y.newTab">(otevře se v novém okně)</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section class="section booking-section" id="rezervace" aria-labelledby="booking-title">
+      <div class="container booking-grid">
+        <div class="booking-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-num">05</span><span data-i18n="booking.eyebrow">Rezervace</span></p>
+          <h2 class="section-title reveal" id="booking-title" data-i18n="booking.title">Rezervujte si stůl</h2>
+          <p class="reveal" data-i18n="booking.intro">O&nbsp;víkendech bývá na snídaně plno, proto doporučujeme rezervaci předem. Stůl vám podržíme 15&nbsp;minut, potvrzení pošleme SMS.</p>
+          <ul class="booking-points reveal">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="booking.pt1">Rezervace až 60 dní dopředu</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="booking.pt2">Stoly pro 1–8 hostů</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="booking.pt3">Větší skupiny a&nbsp;oslavy řešíme telefonicky</span></li>
+          </ul>
+          <p class="booking-phone reveal"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+420734512908">+420 734 512 908</a></p>
+        </div>
+
+        <div class="booking-card reveal">
+          <!--
+            Netlify Forms: the attributes data-netlify + name make this form work automatically when deployed to Netlify.
+            For Formspree or a custom backend, set action="https://formspree.io/f/XXXX" and adjust submitForm() in main.js.
+          -->
+          <form class="booking-form" id="booking-form" name="rezervace" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="rezervace">
+            <input type="hidden" name="cas" id="f-time-value">
+            <p class="visually-hidden" aria-hidden="true"><label>Nevyplňujte <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="f-date" data-i18n="form.date">Datum</label>
+                <input type="date" id="f-date" name="datum" required aria-describedby="f-date-err">
+                <p class="field-error" id="f-date-err"></p>
+              </div>
+              <div class="field">
+                <label for="f-guests" data-i18n="form.guests">Počet hostů</label>
+                <div class="stepper">
+                  <button type="button" class="stepper-btn" data-step="-1" aria-label="Ubrat hosta" data-i18n-attr="aria-label:form.less"><svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg></button>
+                  <input type="number" id="f-guests" name="hoste" value="2" min="1" max="8" inputmode="numeric" required aria-describedby="f-guests-err">
+                  <button type="button" class="stepper-btn" data-step="1" aria-label="Přidat hosta" data-i18n-attr="aria-label:form.more"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button>
+                </div>
+                <p class="field-error" id="f-guests-err"></p>
+              </div>
+            </div>
+
+            <fieldset class="field slots-field" aria-describedby="slots-hint f-time-err">
+              <legend data-i18n="form.time">Čas příchodu</legend>
+              <div class="slots" id="slots"></div>
+              <p class="field-hint" id="slots-hint" data-i18n="form.pickDate">Nejdřív vyberte datum.</p>
+              <p class="field-error" id="f-time-err"></p>
+            </fieldset>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="f-name" data-i18n="form.name">Jméno a příjmení</label>
+                <input type="text" id="f-name" name="jmeno" autocomplete="name" required minlength="2" aria-describedby="f-name-err" placeholder="Jana Nováková" data-i18n-attr="placeholder:form.namePh">
+                <p class="field-error" id="f-name-err"></p>
+              </div>
+              <div class="field">
+                <label for="f-phone" data-i18n="form.phone">Telefon</label>
+                <input type="tel" id="f-phone" name="telefon" autocomplete="tel" inputmode="tel" required aria-describedby="f-phone-err" placeholder="+420 777 123 456">
+                <p class="field-error" id="f-phone-err"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="f-note"><span data-i18n="form.note">Poznámka</span> <span class="optional" data-i18n="form.optional">(nepovinné)</span></label>
+              <textarea id="f-note" name="poznamka" rows="3" maxlength="400" placeholder="Např. dětská židlička, stůl u okna, alergie…" data-i18n-attr="placeholder:form.notePh"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block"><span data-i18n="form.submit">Odeslat rezervaci</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+            <p class="form-privacy" data-i18n="form.privacy">Odesláním souhlasíte se zpracováním údajů pouze za účelem rezervace. Nic dalšího vám posílat nebudeme.</p>
+          </form>
+
+          <div class="booking-success" id="booking-success" hidden tabindex="-1" role="status">
+            <span class="success-icon"><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <h3 data-i18n="success.title">Děkujeme, máme to!</h3>
+            <p id="success-summary"></p>
+            <p class="success-small" data-i18n="success.small">Do 30 minut vám rezervaci potvrdíme SMS zprávou. Kdyby se cokoliv změnilo, stačí zavolat.</p>
+            <button type="button" class="btn btn-outline" id="booking-again" data-i18n="success.again">Nová rezervace</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INSTAGRAM ============ -->
+    <section class="section insta" aria-labelledby="insta-title">
+      <div class="container insta-head">
+        <h2 class="insta-title reveal" id="insta-title"><span data-i18n="insta.title">Sledujte nás</span> <a href="https://www.instagram.com/" target="_blank" rel="noopener">@kavarna.lipa</a></h2>
+        <a class="link-arrow reveal" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg><span data-i18n="insta.follow">Otevřít Instagram</span><span class="visually-hidden" data-i18n="a11y.newTab">(otevře se v novém okně)</span></a>
+      </div>
+      <ul class="insta-strip">
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="insta-item"><img src="assets/img/pastry-sm.jpg" width="600" height="600" loading="lazy" alt="Detail kardamomových šneků" data-i18n-attr="alt:insta.a1" style="object-position: 30% 60%"><span class="insta-overlay"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg> 412</span></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="insta-item"><img src="assets/img/latte-sm.jpg" width="600" height="448" loading="lazy" alt="Latte art zblízka" data-i18n-attr="alt:insta.a2" style="object-position: 50% 45%"><span class="insta-overlay"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg> 538</span></a></li>
+        <li class="insta-note"><div><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg><p data-i18n="insta.note">„Bohouš dnes vstal ve 4:50. Chleba je v&nbsp;peci.“</p><span>#kvasekbohous</span></div></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="insta-item"><img src="assets/img/barista-sm.jpg" width="600" height="804" loading="lazy" alt="Barista při přípravě filtrované kávy" data-i18n-attr="alt:insta.a3" style="object-position: 50% 55%"><span class="insta-overlay"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg> 297</span></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="insta-item"><img src="assets/img/hero-sm.jpg" width="600" height="335" loading="lazy" alt="Výhled z kavárny na secesní dům naproti" data-i18n-attr="alt:insta.a4" style="object-position: 88% 50%"><span class="insta-overlay"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg> 621</span></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" class="insta-item"><img src="assets/img/breakfast-sm.jpg" width="600" height="448" loading="lazy" alt="Avokádový toast s vejcem" data-i18n-attr="alt:insta.a5" style="object-position: 40% 50%"><span class="insta-overlay"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg> 356</span></a></li>
+      </ul>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="section reviews" id="recenze" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow-num">06</span><span data-i18n="reviews.eyebrow">Recenze</span></p>
+            <h2 class="section-title reveal" id="reviews-title" data-i18n="reviews.title">Co říkají naši hosté</h2>
+          </div>
+          <div class="rating-summary reveal">
+            <span class="rating-num">4,9</span>
+            <span class="rating-meta">
+              <span class="stars" role="img" aria-label="4,9 z 5 hvězdiček" data-i18n-attr="aria-label:reviews.starsLabel"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+              <span data-i18n="reviews.count">87 hodnocení na Googlu</span>
+            </span>
+          </div>
+        </div>
+        <ul class="reviews-grid">
+          <li class="review reveal">
+            <span class="stars" role="img" aria-label="5 z 5" data-i18n-attr="aria-label:reviews.five"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+            <blockquote><p data-i18n="reviews.r1">Nejlepší kardamomový šnek, jakého jsem mimo Stockholm jedla. A&nbsp;flat white s&nbsp;ovesným mlékem je přesně takový, jaký má být.</p></blockquote>
+            <p class="review-author"><span class="avatar" aria-hidden="true">K</span><span><strong>Klára V.</strong><span class="review-src" data-i18n="reviews.src1">Google · před 2 týdny</span></span></p>
+          </li>
+          <li class="review reveal">
+            <span class="stars" role="img" aria-label="5 z 5" data-i18n-attr="aria-label:reviews.five"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+            <blockquote><p data-i18n="reviews.r2">Konečně kavárna na Vinohradech, kde se dá v&nbsp;klidu posedět s&nbsp;knížkou. Světlo, dřevo, tichá hudba a&nbsp;obsluha, která si po druhé návštěvě pamatuje, co pijete.</p></blockquote>
+            <p class="review-author"><span class="avatar" aria-hidden="true">M</span><span><strong>Martin H.</strong><span class="review-src" data-i18n="reviews.src2">Google · před měsícem</span></span></p>
+          </li>
+          <li class="review reveal">
+            <span class="stars" role="img" aria-label="5 z 5" data-i18n-attr="aria-label:reviews.five"><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+            <blockquote><p data-i18n="reviews.r3">Chodíme sem s&nbsp;dětmi na sobotní snídaně. Šakšuka je výborná, dětská židlička je vždycky po ruce a&nbsp;kváskový chleba si bereme i&nbsp;domů.</p></blockquote>
+            <p class="review-author"><span class="avatar" aria-hidden="true">P</span><span><strong>Petra a Tomáš</strong><span class="review-src" data-i18n="reviews.src3">Google · před 3 týdny</span></span></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#top" aria-label="Kavárna Lípa">
+          <svg class="brand-mark" aria-hidden="true"><use href="#i-leaf-solid"/></svg>
+          <span class="brand-text"><span class="brand-kicker">Kavárna</span><span class="brand-name">Lípa</span></span>
+        </a>
+        <p data-i18n="footer.tagline">Výběrová káva, kváskové pečivo a&nbsp;chvíle klidu na Vinohradech.</p>
+        <ul class="socials">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></a></li>
+          <li><a href="mailto:ahoj@kavarnalipa.cz" aria-label="E-mail"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2 class="footer-title" data-i18n="footer.contact">Kontakt</h2>
+        <ul class="footer-list">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Korunní 42, 120 00 Praha 2</span></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+420734512908">+420 734 512 908</a></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:ahoj@kavarnalipa.cz">ahoj@kavarnalipa.cz</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2 class="footer-title" data-i18n="footer.hours">Otevřeno</h2>
+        <ul class="footer-list footer-hours">
+          <li><span data-i18n="footer.h1">Po–Pá</span><span>7:30–19:00</span></li>
+          <li><span data-i18n="footer.h2">Sobota</span><span>8:30–18:00</span></li>
+          <li><span data-i18n="footer.h3">Neděle</span><span>9:00–17:00</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2 class="footer-title" data-i18n="footer.nav">Navigace</h2>
+        <ul class="footer-list">
+          <li><a href="#menu" data-i18n="nav.menu">Menu</a></li>
+          <li><a href="#navsteva" data-i18n="nav.visit">Návštěva</a></li>
+          <li><a href="#rezervace" data-i18n="nav.book">Rezervace</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Kavárna Lípa</p>
+      <p class="demo-note" data-i18n="footer.demo">Demo projekt – koncept webu vytvořil Khmelevoi Oleksii</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Galerie" data-i18n-attr="aria-label:gallery.dialog">
+    <figure class="lightbox-figure">
+      <img id="lightbox-img" src="assets/img/hero.jpg" alt="">
+      <figcaption id="lightbox-cap"></figcaption>
+    </figure>
+    <button type="button" class="lb-btn lb-close" aria-label="Zavřít" data-i18n-attr="aria-label:a11y.close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <button type="button" class="lb-btn lb-prev" aria-label="Předchozí" data-i18n-attr="aria-label:a11y.prev"><svg class="icon" aria-hidden="true"><use href="#i-chev-l"/></svg></button>
+    <button type="button" class="lb-btn lb-next" aria-label="Další" data-i18n-attr="aria-label:a11y.next"><svg class="icon" aria-hidden="true"><use href="#i-chev-r"/></svg></button>
+  </dialog>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
